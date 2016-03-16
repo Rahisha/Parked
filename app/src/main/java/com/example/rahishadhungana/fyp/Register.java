@@ -10,7 +10,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.firebase.client.Firebase;
 
 public class Register extends AppCompatActivity implements View.OnClickListener {
 

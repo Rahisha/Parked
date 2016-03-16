@@ -137,7 +137,7 @@ public class BackgroundTask extends AsyncTask<String, Void, String> {
         else if (result.contains("Success")) {
             Intent intent = new Intent();
 
-            ctx.startActivity(new Intent(ctx, MainPanelActivity.class));
+            ctx.startActivity(new Intent(ctx, MapsActivity.class));
 //            ctx.startActivity();
 
             MainActivity activity = (MainActivity) ctx;
